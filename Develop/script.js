@@ -1,6 +1,25 @@
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
+function updateTime(){
+var currentDayEL = document.getElementById("currentDay");
+var today = dayjs();
+var formattedDateTime = today.format("ddd, MMMM D HH:mm:ss");
+
+currentDayEL.textContent = "Today is: " + formattedDateTime;
+}
+setInterval(updateTime, 1000);
+
+function saveText(){
+ addEventListener("click", function(){
+  textContent
+ });
+
+ document.addEventListener("DOMContentLoaded", function(){
+  loadSavedText();
+ })
+
+}
 $(function () {
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
@@ -9,6 +28,15 @@ $(function () {
   // time-block containing the button that was clicked? How might the id be
   // useful when saving the description in local storage?
   //
+var saveButtons = document.querySelectorAll(".saveBtn");
+  saveButtons.forEach(function (button) {
+    button.addEventListener("click", function(){
+      var hourID = thisParentNode.id;
+      saveText(hourID);
+    });
+    });
+  });
+
   // TODO: Add code to apply the past, present, or future class to each time
   // block by comparing the id to the current hour. HINTS: How can the id
   // attribute of each time-block be used to conditionally add or remove the
@@ -20,4 +48,5 @@ $(function () {
   // attribute of each time-block be used to do this?
   //
   // TODO: Add code to display the current date in the header of the page.
-});
+
+updateTime();

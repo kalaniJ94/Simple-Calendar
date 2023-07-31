@@ -1,98 +1,66 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# <Your-Project-Title>
 
-## Your Task
+## Description
 
-Create a simple calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;5pm) by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+- What was your motivation?
+- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+- What problem does it solve?
+- What did you learn?
 
-## User Story
+## Table of Contents (Optional)
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+If your README is long, add a table of contents to make it easy for users to find what they need.
 
-## Acceptance Criteria
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours of 9am&ndash;5pm
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+## Installation
 
-The following animation demonstrates the application functionality:
+What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+## Usage
 
-## Grading Requirements
+Provide instructions and examples for use. Include screenshots as needed.
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
-This Challenge is graded based on the following criteria:
+![alt text](assets/images/screenshot.png)
 
-### Technical Acceptance Criteria: 40%
+## Credits
 
-* Satisfies all of the above acceptance criteria plus the following:
+List your collaborators, if any, with links to their GitHub profiles.
 
-  * Uses a date utility library to work with date and time
+If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
-### Deployment: 32%
+If you followed tutorials, include links to those here as well.
+https://day.js.org/docs/en/display/format
 
-* Application deployed at live URL
+## License
 
-* Application loads with no errors
+The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
-* Application GitHub URL submitted
+---
 
-* GitHub repo contains application code
+🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 
-### Application Quality: 15%
+## Badges
 
-* Application user experience is intuitive and easy to navigate
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
-* Application user interface style is clean and polished
+Badges aren't necessary, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
 
-* Application resembles the mock-up functionality provided in the Challenge instructions
+## Features
 
-### Repository Quality: 13%
+If your project has a lot of features, list them here.
 
-* Repository has a unique name
+## How to Contribute
 
-* Repository follows best practices for file structure and naming conventions
+If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+## Tests
 
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+Go the extra mile and write tests for your application. Then provide examples on how to run them here
